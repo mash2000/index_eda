@@ -91,3 +91,157 @@ body {
   bottom: 0;
   right: 0;
 }
+
+.slide {
+  border-radius: 20px;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  padding: 100px;
+  position: relative;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slide-content {
+  position: relative;
+  max-width: 400px;
+}
+
+.slide-text-light {
+  background-color: grey;
+  color: #ffffff;
+}
+
+.slide-title {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 51px;
+}
+
+.slide-text {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 23px;
+  margin-bottom: 30px;
+}
+
+.button-primary {
+  background: #f47322;
+  color: #ffffff;
+}
+
+.button-default {
+  background-color: #ffffff;
+  color: #5f5f61;
+}
+
+.button {
+  border-radius: 25px;
+  padding: 12px 50px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 500;
+}
+
+.slide-summer {
+  background-image: url('../img/summer.png');
+}
+
+.slide:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%);
+}
+
+.promo {
+  padding: 0 0 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  position: relative;
+  border-radius: 20px;
+  padding: 32px;
+  width: 100%;
+  overflow: hidden;
+  max-width: 570px;
+  min-height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.card:nth-child(even) {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.card-content {
+  position: relative;
+}
+
+.card:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%);
+}
+
+.card-text-light {
+  color: #ffffff;
+}
+
+.card-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 23px;
+  margin-top: 4px;
+  margin-bottom: 21px;
+}
+
+.card-description {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  max-width: 200px;
+}
+
+.card-price {
+  display: block;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 23px;
+  margin-bottom: 8px;
+}
+
+.card-delivery {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  margin-bottom: 25px;
+}
+
+.sweet-basket {
+  background: url('../img/sweet-basket.png') no-repeat center / cover;
+}
+
+.min-efforts {
+  background: url('../img/min-efforts.png') no-repeat center / cover;
+}
