@@ -477,3 +477,65 @@ body {
   margin-left: 20px;
   text-decoration: none;
 }
+
+.swiper {
+  position: relative;
+}
+
+.slider-buttons {
+  position: absolute;
+  bottom: 110px;
+  right: 46px;
+  z-index: 9;
+  display: flex;
+  align-items: center;
+  width: 100px;
+  justify-content: space-between;
+}
+
+.slider-button {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1260px) {
+  .container {
+    max-width: 960px;
+  }
+  .slide {
+    padding: 70px;
+  }
+  .delivery-card {
+    width: calc(50% - 30px);
+  }
+  .footer-logo {
+    margin-right: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 560px;
+  }
+  .header {
+    flex-wrap: wrap;
+  }
+  .search-form {
+    order: 5;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 15px;
+    margin-bottom: 40px;
+  }
+  .promo {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: ) {
+  .container {
+    max-width: 95%;
+  }
+  .tabs-card {
+    max-width: 100%;
+  }
+}
